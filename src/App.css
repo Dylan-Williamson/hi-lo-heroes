@@ -23,3 +23,11 @@
   box-shadow: 1px 1px 50px rgb(255, 0, 191), 2px 2px 100px rgb(56, 154, 247);
   cursor: pointer;
 }
+
+div {
+  border: 1px solid white;
+}
+
+.counter-container {
+  border: 5px solid red;
+}

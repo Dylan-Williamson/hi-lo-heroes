@@ -1,12 +1,17 @@
 import React from 'react';
-import Counter from '../components/Counter'
+import PlayingCard from '../components/PlayingCard';
+import CounterControls from '../components/CounterControls';
 
 const CounterContainer = () => {
 
     return (
         <>
             <div className="counter-container">
-                <Counter/>
+                <h1>
+                    Current Count: 0
+                </h1>
+                <PlayingCard/>
+                <CounterControls/>
             </div>
         </>
     )

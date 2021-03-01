@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Counter = () => {
+const PlayingCard = () => {
 
     return (
         <>
-            <div className="counter">
+            <div className="playing-card">
                 <h1>
-                    I'm the counter
+                    playing card
                 </h1>
             </div>
         </>
     )
 }
-export default Counter;
+export default PlayingCard;
