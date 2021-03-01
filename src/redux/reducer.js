@@ -1,8 +1,8 @@
 // import projectsReducer from './projectsReducer'
-// import audioReducer from './audioReducer'
+import cardsReducer from './cardsReducer'
 import { combineReducers } from 'redux'
 
 export const reducer = combineReducers({
-    // projects: projectsReducer,
+    cards: cardsReducer,
     // audios: audioReducer
 })
