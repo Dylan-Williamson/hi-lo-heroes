@@ -1,6 +1,6 @@
 import React from 'react';
 // import { projects } from '../components/Projects'
-// import ProjectCard from '../components/ProjectCard';
+import CounterContainer from '../containers/CounterContainer';
 
 
 const CounterPage = () => {
@@ -8,9 +8,7 @@ const CounterPage = () => {
     return (
         <>
             <h1>Counter</h1>
-            {/* <div className="project-cards"> */}
-                {/* { projects.map(project => <ProjectCard key={ project.id } { ...project } />) } */}
-            {/* </div><br/><br/> */}
+                <CounterContainer/>
         </>
     )
 }
