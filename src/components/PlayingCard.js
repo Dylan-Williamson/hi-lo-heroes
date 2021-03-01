@@ -6,7 +6,7 @@ const PlayingCard = () => {
         <>
             <div className="playing-card">
                 <h1>
-                    playing card
+                    Playing Card
                 </h1>
             </div>
         </>
